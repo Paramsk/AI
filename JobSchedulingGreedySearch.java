@@ -62,3 +62,13 @@ class JobScheduler {
         scanner.close();
     }
 }
+
+// Enter the number of jobs: 5
+// Enter the deadline and profit of job 1: 2 100
+// Enter the deadline and profit of job 2: 1 19
+// Enter the deadline and profit of job 3: 2 27
+// Enter the deadline and profit of job 4: 1 25
+// Enter the deadline and profit of job 5: 3 15
+// Max Profit Sequence of Jobs: 3 1 5 
+// Max Profit: 140
+
