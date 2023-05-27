@@ -37,14 +37,14 @@ public class EightPuzzle {
 
     static int[][] goalState = {
             {1, 2, 3},
-            {8, 0, 4},
-            {7, 6, 5}
+            {4, 5, 6},
+            {7, 8, 0}
     };
 
     static int[][] initialState = {
-            {2, 8, 3},
-            {1, 6, 4},
-            {7, 0, 5}
+            {1, 2, 3},
+            {0, 4, 6},
+            {7, 5, 8}
     };
 
     static int[][][] moves = {
