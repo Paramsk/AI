@@ -18,8 +18,17 @@ public class SelectionSort {
     }
     
     public static void main(String[] args) {
-        int[] arr = { 5, 3, 8, 4, 2 };
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter value of n");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        System.out.println("Give the array");
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        
         selectionSort(arr);
         System.out.println(Arrays.toString(arr));  // [2, 3, 4, 5, 8]
+        sc.close();
     }
 }
